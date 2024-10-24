@@ -39,7 +39,7 @@ namespace Lib_8
                     mas = lib_8_Class.Create(get_number);
                     for(int i = 0; i < mas.Length; i++)
                     {
-                        result = result + mas[i].ToString() + " ";
+                        result +=  mas[i].ToString() + " ";
                     }
                     outputMas.Text = result;
                     outputMax.Text = lib_8_Class.MaxNumber(mas).ToString();
